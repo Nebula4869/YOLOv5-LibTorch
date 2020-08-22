@@ -33,3 +33,5 @@ Real time object detection with deployment of YOLOv5 through LibTorch C++ API
    make
    ./../bin/YOLOv5LibTorch
    ```
+
+Note: COCO-pretrained YOLOv5s model has been provided. For more pretrained models, see [yolov5](https://github.com/ultralytics/yolov5).
