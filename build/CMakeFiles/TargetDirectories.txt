@@ -1,3 +1,0 @@
-/media/nebula/WorkSpace/C++/YOLOv5LibTorch/build/CMakeFiles/rebuild_cache.dir
-/media/nebula/WorkSpace/C++/YOLOv5LibTorch/build/CMakeFiles/edit_cache.dir
-/media/nebula/WorkSpace/C++/YOLOv5LibTorch/build/CMakeFiles/YOLOv5LibTorch.dir
