@@ -10,7 +10,7 @@ Real time object detection with deployment of YOLOv5 through LibTorch C++ API
 
 ### Getting Started
 
-1. Install OpenCV.
+1. Install OpenCV from apt repository or download it from source.
 
    ```shell
    sudo apt-get install libopencv-dev
@@ -19,9 +19,11 @@ Real time object detection with deployment of YOLOv5 through LibTorch C++ API
 2. Install LibTorch.
 
    ```shell
-   wget https://download.pytorch.org/libtorch/nightly/cpu/libtorch-shared-with-deps-latest.zip
-   unzip libtorch-shared-with-deps-latest.zip
+   wget https://download.pytorch.org/libtorch/nightly/cpu/libtorch-cxx11-abi-shared-with-deps-latest.zip && unzip libtorch-shared-with-deps-latest.zip
    ```
+
+   It's far better to visit official [PyTorch website](https://pytorch.org/get-started/locally/) by yourself and download that version that suits your needs.
+   Note: OpenCV needs LibTorch version that has cxx11 ABI, otherwise compiler throws undefined references.
 
 3. Edit "CMakeLists.txt" to configure OpenCV and LibTorch correctly.
 
