@@ -1,4 +1,4 @@
-# YOLOv5 LibTorch
+# YOLOv5-LibTorch
 Real time object detection with deployment of YOLOv5 through LibTorch C++ API
 
 ### Environment
